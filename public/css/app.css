@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 50px;
+    width: 50px;
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+    bottom: 30%;
+    transition: 1s;
+
+
+}
+ input:checked + img {
+    opacity: 0;
+    
+ }
